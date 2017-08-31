@@ -4,7 +4,7 @@ tagline: IT Enthusiast
 email: poudelmadhav143@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   I am student of Computer Science and Information Technology at Tribhuvan University.
-baseurl: "/personal-blog/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://blog.poudelmadhav.com" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "Madhav Paudel"
