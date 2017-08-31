@@ -3,6 +3,7 @@ layout: post
 title:  "C program to find a HCF of the two numbers"
 date:   2016-12-25 13:19:47 +0545
 categories: jekyll update
+comments: true
 ---
 
 {% highlight ruby %}
