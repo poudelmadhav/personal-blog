@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Blog Archive
-permalink: /archive/
+permalink: "/archive/"
+layout: page
 banner_image: sample-banner-image-3.jpg
 ---
 

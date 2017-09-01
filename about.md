@@ -1,7 +1,7 @@
 ---
-layout: page
 title: About me
-permalink: /about/
+permalink: "/about/"
+layout: page
 banner_image: cover_image.jpg
 banner_image_alt: About me
 ---

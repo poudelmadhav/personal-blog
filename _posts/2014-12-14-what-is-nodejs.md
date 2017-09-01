@@ -1,9 +1,12 @@
 ---
+title: What is Node.js
+date: 2014-12-14 04:07:49 Z
+categories:
+- NodeJS
+- Guides
 layout: post
-title:  "What is Node.js"
-date:   2014-12-14 04:07:49
-categories: NodeJS Guides
-banner_video: '<iframe width="560" height="315" src="//www.youtube.com/embed/pU9Q6oiQNd0" frameborder="0" allowfullscreen></iframe>'
+banner_video: <iframe width="560" height="315" src="//www.youtube.com/embed/pU9Q6oiQNd0"
+  frameborder="0" allowfullscreen></iframe>
 comments: true
 ---
 

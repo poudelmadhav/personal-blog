@@ -1,7 +1,7 @@
 ---
+title: C++ program of file handling to write a file in the disk and read from a file
+date: 2016-12-25 07:34:47 Z
 layout: post
-title:  "C++ program of file handling to write a file in the disk and read from a file"
-date:   2016-12-25 13:19:47 +0545
 comments: true
 ---
 

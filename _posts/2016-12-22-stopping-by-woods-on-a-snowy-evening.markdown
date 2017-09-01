@@ -1,10 +1,13 @@
 ---
+title: Stopping by Woods on a Snowy Evening
+date: 2016-12-22 08:35:47 Z
+categories:
+- jekyll
+- update
 layout: post
-title:  "Stopping by Woods on a Snowy Evening"
-date:   2016-12-22 14:20:47 +0545
-categories: jekyll update
 comments: true
 ---
+
 <strong>-BY ROBORT FROST</strong>
 
 <p>

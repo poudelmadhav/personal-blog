@@ -1,62 +1,51 @@
-# Site settings
+---
 title: Madhav Paudel
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
 tagline: IT Enthusiast
 email: poudelmadhav143@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  I am student of Computer Science and Information Technology at Tribhuvan University.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.poudelmadhav.com.np" # the base hostname & protocol for your site
-logourl: /assets/images/logo.png # Site logo
-author: "Madhav Paudel"
-author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
-# Theme customization - please change from the defaults!
+description: 'I am student of Computer Science and Information Technology at Tribhuvan
+  University.
+
+'
+baseurl: ''
+url: http://blog.poudelmadhav.com.np
+logourl: "/assets/images/logo.png"
+author: Madhav Paudel
+author_thumbnail: "/assets/images/avatar.jpg"
 theme:
-  # Color for sidebar bar, links, etc
-  highlight_color: "#205081" #205081" # "#272935"
-  # Social media links, leave blank to ignore
-  social: 
+  highlight_color: "#205081"
+  social:
     github: poudelmadhav
     twitter: poudelmadhav143
     facebook: poudelmadhav143
-    gplus: +madhavpoudel43
-    # dribble: poudelmadhav143
+    gplus: "+madhavpoudel43"
     pinterest: poudelmadhav143
-
-  # Enable share buttons on post footer
   show_share_buttons: true
-
-  # Show author picure, name and social links on post footer
   show_author_info: true
-
-  # Disqus comments manager - shortname
   disqus_shortname: madhav-blog
-
-  # Google Analytics/Webmaster key, leave blank to ignore
   google_analytics_key: 
   google_webmaster_key: 
-
-# Build settings
 markdown: kramdown
-
-# Permalinks
-permalink:        pretty
-
-# Pagination config
-gems: [jekyll-paginate]
+permalink: pretty
+gems:
+- jekyll-paginate
 paginate: 5
-paginate_path: "page:num"
-
-# Files/Folders to be excluded from generated _site folder
-exclude: 
-  - CNAME
-  - Gemfile
-  - Rakefile
-  - README.md
-  - .gitignore
-  - .sass-cache
-  - Gemfile.lock
-
-# Sass conversion configs
+paginate_path: page:num
+exclude:
+- CNAME
+- Gemfile
+- Rakefile
+- README.md
+- ".gitignore"
+- ".sass-cache"
+- Gemfile.lock
 sass:
   sass_dir: assets/css/_sass
   style: :compressed
