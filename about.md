@@ -21,7 +21,7 @@ My Parents are doing hard work there for me. I miss my parents here so much. My 
 
 ### Contact me
 
-Say `Hello` at poudelmadhav143@gmail.com or find
+Say `Hello` at info@poudelmadhav.com.np or find
 me on
 
 ---
