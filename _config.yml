@@ -9,11 +9,9 @@ collections:
     title: Uploads
     output: true
 tagline: IT Enthusiast
-email: poudelmadhav143@gmail.com
+email: info@poudelmadhav.com.np
 description: 'I am student of Computer Science and Information Technology at Tribhuvan
-  University.
-
-'
+  University.'
 baseurl: 
 url: https://blog.poudelmadhav.com.np
 logourl: "/assets/images/logo.png"
@@ -22,11 +20,10 @@ author_thumbnail: "/assets/images/avatar.jpg"
 theme:
   highlight_color: "#205081"
   social:
-    facebook_username: poudelmadhav143
     github: poudelmadhav
     twitter: poudelmadhav143
     facebook: poudelmadhav143
-    gplus: "+madhavpoudel43"
+    gplus: +madhavpoudel43
     pinterest: poudelmadhav143
   show_share_buttons: true
   show_author_info: true
