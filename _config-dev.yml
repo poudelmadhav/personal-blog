@@ -2,5 +2,4 @@
 baseurl: "" # the subpath of your site, e.g. /blog/
 
 # Site live URL
-url: "http://blog.poudelmadhav.com.np" # the base hostname & protocol for your site
-
+url: "https://blog.poudelmadhav.com.np" # the base hostname & protocol for your site
