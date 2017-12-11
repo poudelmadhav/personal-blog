@@ -26,7 +26,7 @@ me on
 
 ---
 
-{% include social.html %}
+
 {% if site.facebook_username %}
   <li>
     <a href="https://www.facebook.com/{{ site.facebook_username }}">
