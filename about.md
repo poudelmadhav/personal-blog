@@ -27,3 +27,10 @@ me on
 ---
 
 {% include social.html %}
+{% if site.facebook_username %}
+  <li>
+    <a href="https://www.facebook.com/{{ site.facebook_username }}">
+      <i class="fa fa-facebook"></i> Facebook
+    </a>
+  </li>
+{% endif %}
