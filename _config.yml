@@ -21,8 +21,8 @@ author: Madhav Paudel
 author_thumbnail: "/assets/images/avatar.jpg"
 theme:
   highlight_color: "#205081"
-  facebook_username:    poudelmadhav143
   social:
+    facebook_username: poudelmadhav143
     github: poudelmadhav
     twitter: poudelmadhav143
     facebook: poudelmadhav143
