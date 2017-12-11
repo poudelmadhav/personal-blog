@@ -29,7 +29,7 @@ theme:
     pinterest: poudelmadhav143
   show_share_buttons: true
   show_author_info: true
-  disqus_shortname: madhav-blog
+  disqus_shortname: madhav-jekyll-blog
   google_analytics_key: 
   google_webmaster_key: 
 markdown: kramdown
