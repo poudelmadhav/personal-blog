@@ -2,8 +2,7 @@
 title: Stopping by Woods on a Snowy Evening
 date: 2016-12-22 08:35:47 Z
 categories:
-- jekyll
-- update
+- poem
 layout: post
 comments: true
 ---
