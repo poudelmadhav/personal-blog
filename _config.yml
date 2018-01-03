@@ -18,7 +18,6 @@ logourl: "/assets/images/logo.png"
 author: Madhav Paudel
 author_thumbnail: "/assets/images/avatar.jpg"
 theme:
-  highlight_color: "#205081"
   social:
     github: poudelmadhav
     twitter: poudelmadhav143
