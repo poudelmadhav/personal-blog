@@ -1,9 +1,8 @@
 ---
 title: C program to find a HCF of the two numbers
 date: 2016-12-25 07:34:47 Z
-categories:
-- program
-- c
+category:
+- c program
 layout: post
 comments: true
 ---
