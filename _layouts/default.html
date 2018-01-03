@@ -20,8 +20,8 @@
     _config.yml given by Google web-master tools.
     {% endcomment %}
 
-    {% if site.google_webmaster_key %}
-    <meta name="google-site-verification" content="{{ site.google_webmaster_key }}" />
+    {% if site.theme.google_webmaster_key %}
+    <meta name="google-site-verification" content="{{ site.theme.google_webmaster_key }}" />
     {% endif %}
 
     <link rel="alternate" type="application/rss+xml" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
@@ -40,7 +40,6 @@
     <![endif]-->
 
     {% include style.html %}
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     {% include sidebar.html %}
@@ -71,7 +70,7 @@
     <script type="text/javascript">
       var config = {
         "browser_warning_page": "{{ '/browser-warning/' | prepend: site.baseurl | prepend: site.url }}",
-        "disqus_shortname": "{{ site.disqus_shortname }}"
+        "disqus_shortname": "{{ site.theme.disqus_shortname }}"
       };
       /* Browser support detection */
       var browserSupport = (function(){
@@ -91,7 +90,7 @@
       /* To avoid render blocking css */
       var cb = function() {
         var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = 'https://fonts.googleapis.com/css?family=PT+Sans';
+        l.href = 'http://fonts.googleapis.com/css?family=PT+Sans';
         var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
       };
       var raf = requestAnimationFrame || mozRequestAnimationFrame ||
