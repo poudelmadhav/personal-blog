@@ -2,8 +2,8 @@
 title: C program to find a HCF of the two numbers
 date: 2016-12-25 07:34:47 Z
 categories:
-- jekyll
-- update
+- program
+- c
 layout: post
 comments: true
 ---
