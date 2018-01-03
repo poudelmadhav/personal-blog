@@ -3,7 +3,7 @@ title: C++ program of file handling to write a file in the disk and read from a 
 date: 2016-12-25 07:34:47 Z
 layout: post
 category:
-- c program
+- c++ program
 comments: true
 ---
 
