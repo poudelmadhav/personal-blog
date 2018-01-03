@@ -19,14 +19,13 @@ author: Madhav Paudel
 author_thumbnail: "/assets/images/avatar.jpg"
     
 theme:
-
+  highlight_color: "#205081"
   social:
     github: poudelmadhav
     twitter: poudelmadhav143
     facebook: poudelmadhav143
     gplus: +madhavpoudel43
     pinterest: poudelmadhav143
-  highlight_color: "#205081"
   show_share_buttons: true
   show_author_info: true
   disqus_shortname: madhav-jekyll-blog
