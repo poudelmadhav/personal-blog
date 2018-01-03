@@ -20,8 +20,8 @@
     _config.yml given by Google web-master tools.
     {% endcomment %}
 
-    {% if site.theme.google_webmaster_key %}
-    <meta name="google-site-verification" content="{{ site.theme.google_webmaster_key }}" />
+    {% if site.google_webmaster_key %}
+    <meta name="google-site-verification" content="{{ site.google_webmaster_key }}" />
     {% endif %}
 
     <link rel="alternate" type="application/rss+xml" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}">
@@ -71,7 +71,7 @@
     <script type="text/javascript">
       var config = {
         "browser_warning_page": "{{ '/browser-warning/' | prepend: site.baseurl | prepend: site.url }}",
-        "disqus_shortname": "{{ site.theme.disqus_shortname }}"
+        "disqus_shortname": "{{ site.disqus_shortname }}"
       };
       /* Browser support detection */
       var browserSupport = (function(){
