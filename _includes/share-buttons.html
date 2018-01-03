@@ -16,22 +16,11 @@
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">Google</a>
     </li>
     <li>
-     <a  href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ site.baseurl }}{{ page.url }}"
-            onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
-            title="Share on Facebook" >
-            <i class="fa fa-facebook-official share-button"></i></a>
-    </li>
-    <li>
         <a title="{{ site.theme.social.facebook }} on Facebook" 
             href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{page.url}}&amp;t={{page.title}}" 
             class="facebook wc-img-replace"
             onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;">Facebook</a>
     </li>
-    <li>
-    <a  href="mailto:?subject={{ page.title }}&amp;body=Check out this site {{ site.url }}{{ site.baseurl }}{{ page.url }}"
-            title="Share via Email" >
-            <i class="envelope we-img-replace"></i></a>
-     </li>
   </ul>
 </div>
 {% endcapture %}{{ share_button | strip_newlines }}
