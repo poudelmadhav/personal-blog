@@ -2,8 +2,7 @@
 title: Welcome to Madhav's Blog!
 date: 2016-12-21 12:03:24 Z
 categories:
-- jekyll
-- update
+- welcome
 layout: post
 comments: true
 ---
