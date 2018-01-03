@@ -53,15 +53,14 @@ layout: default
       </ul>
     </div>
   {% endif %}
-  {% include share-bar.html %}
   <div class="author-info">
-    {% if site.theme.show_author_info %}
+    
       {% include author.html %}
-    {% endif %}
+    
   
-    {% if site.theme.show_share_buttons %}
+    
       {% include share-buttons.html %}
-    {% endif %}  
+     
   </div>
   
   {% if page.comments %}
