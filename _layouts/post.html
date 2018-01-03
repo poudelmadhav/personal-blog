@@ -55,13 +55,9 @@ layout: default
   {% endif %}
  
   <div class="author-info">
-    {% if site.show_author_info %}
       {% include author.html %}
-    {% endif %}
-  
-    {% if site.show_share_buttons %}
-      {% include share-buttons.html %}
-    {% endif %}  
+    
+      {% include share-buttons.html %}  
   </div>
   
   {% if page.comments %}
