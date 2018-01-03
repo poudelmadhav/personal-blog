@@ -1,6 +1,6 @@
 ---
 title: Madhav Paudel
-timezone: UTC
+timezone: UTC+05:45
 collections:
   posts:
     title: Posts
@@ -17,15 +17,14 @@ url: https://blog.poudelmadhav.com.np
 logourl: "/assets/images/logo.png"
 author: Madhav Paudel
 author_thumbnail: "/assets/images/avatar.jpg"
-
-twitter: poudelmadhav143
-facebook: poudelmadhav143
-gplus: +madhavpoudel43
     
 theme:
+  highlight_color: "#205081"
   social:
     github: poudelmadhav
-    
+    twitter: poudelmadhav143
+    facebook: poudelmadhav143
+    gplus: +madhavpoudel43
     pinterest: poudelmadhav143
   show_share_buttons: true
   show_author_info: true
