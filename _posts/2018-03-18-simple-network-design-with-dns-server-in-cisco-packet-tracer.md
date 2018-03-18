@@ -1,7 +1,7 @@
 ---
 title: Simple Network Design With DNS Servers in Packet Tracer
 date: 2018-03-18 06:45:31 Z
-permalink: "/network-with-dns-server/""
+permalink: network-with-dns-server/
 categories:
 - cisco
 - network

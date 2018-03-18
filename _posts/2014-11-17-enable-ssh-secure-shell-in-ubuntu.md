@@ -1,7 +1,7 @@
 ---
 title: Enable SSH (Secure Shell) in Ubuntu
 date: 2014-11-17 00:00:00 Z
-permalink: enable-ssh-secure-shell-in-ubuntu
+permalink: enable-ssh-secure-shell-in-ubuntu/
 categories:
 - ubuntu
 - guide

@@ -1,7 +1,7 @@
 ---
 title: Installing apache2, php5 and MySQL support on Ubuntu 12.04
 date: 2014-06-29 00:00:00 Z
-permalink: installing-apache2-php5-and-mysql-support-on-ubuntu-12-04
+permalink: installing-apache2-php5-and-mysql-support-on-ubuntu-12-04/
 categories:
 - ubuntu
 - guide

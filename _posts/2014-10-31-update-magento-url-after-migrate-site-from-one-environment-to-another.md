@@ -1,7 +1,7 @@
 ---
 title: Update magento URL after migrate your site from one environment to another
 date: 2014-10-31 00:00:00 Z
-permalink: update-magento-url-after-migrate-site-from-one-environment-to-another
+permalink: update-magento-url-after-migrate-site-from-one-environment-to-another/
 categories:
 - magento
 - guide
