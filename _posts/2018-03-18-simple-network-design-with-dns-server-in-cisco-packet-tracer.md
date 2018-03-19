@@ -93,6 +93,12 @@ And then click `Add`
 
 Now our network is complete. It's time to test and enjoy.
 
+# DNS
+
+Let us check if web server is pinging to PC1 or not. Go to terminal of PC1 and type `ping 192.168.5.3`
+![ping](../assets/images/cisco-network/17_pinging_web_address_frm_com0.png)
+<p align="center"><i>fig. Pinging web server from PC0</i></p>
+
 Let us check the files at web server. When we click `web server` and click `services`, we see that:
 ![web-server](../assets/images/cisco-network/10_web_server_files.png)
 <p align="center"><i>fig. Web Server files</i></p>
@@ -113,3 +119,34 @@ To do that follow the steps below:
 Now, browse `http://www.madhav.com`, your site is now working.
 ![http-browsing](../assets/images/cisco-network/16_browing_http_dns_frm_pc0.png)
 <p align="center"><i>fig. Web browing from PC0 using custom domain</i></p>
+
+# FTP
+We have same server for FTP and DNS. To make ftp server, first make sure it is `turned on`. And then we need password to login ftp server. Deafault usermame is `cisco` and password is also `cisco`
+![ftp-server](../assets/images/cisco-network/11_ftp_server.png)
+<p align="center"><i>fig. FTP server</i></p>
+
+**FTP GET**
+
+Now, extract the files from ftp server to PC0. Go to terminal of PC0 and login to ftp server:
+```
+ftp 192.168.5.3
+username: cisco
+password: cisco
+```
+![ftp-login](../assets/images/cisco-network/18_ftp_login.png)
+*fig. FTP login*
+
+You can get the files of ftp using `get <filename>`
+![ftp-get](../assets/images/cisco-network/19_get_ftp.png)
+*fig. FTP GET*
+
+**FPT PUT**
+This means saving our files from computer to ftp server. We do this by using the command `put <filename>`
+
+First, create a file going to PC0, I named it as `madhav.txt`
+![ftp-create-file](../assets/images/cisco-network/20_create_ftp_file.png)
+<p align="center"><i>fig. Creating file in PC</i></p>
+
+Finally, put the file to server `put madhav.txt`
+![ftp-put](../assets/images/cisco-network/21_put_ftp_file.png)
+*fig. FTP PUT*
