@@ -121,7 +121,7 @@ Now, browse `http://www.madhav.com`, your site is now working.
 <p align="center"><i>fig. Web browing from PC0 using custom domain</i></p>
 
 # FTP
-We have same server for FTP and DNS. To make ftp server, first make sure it is `turned on`. And then we need password to login ftp server. Deafault usermame is `cisco` and password is also `cisco`
+We have same server for FTP and DNS. To make ftp server, first make sure it is `turned on`. And then we need password to login ftp server. Default username is `cisco` and password is also `cisco`
 ![ftp-server](../assets/images/cisco-network/11_ftp_server.png)
 <p align="center"><i>fig. FTP server</i></p>
 
