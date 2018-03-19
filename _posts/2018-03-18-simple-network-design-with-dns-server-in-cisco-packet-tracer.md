@@ -141,6 +141,7 @@ You can get the files of ftp using `get <filename>`
 *fig. FTP GET*
 
 **FPT PUT**
+
 This means saving our files from computer to ftp server. We do this by using the command `put <filename>`
 
 First, create a file going to PC0, I named it as `madhav.txt`
