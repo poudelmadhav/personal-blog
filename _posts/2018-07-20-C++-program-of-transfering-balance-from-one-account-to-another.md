@@ -1,6 +1,6 @@
 ---
 title: C++ program of transfering balance from one account to another
-date: 2016-12-25 07:34:47 Z
+date: 2018-07-20 11:13:47 Z
 permalink: cplus-balance-transfer/
 category:
 - c++ program
