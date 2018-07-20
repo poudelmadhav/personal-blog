@@ -4,7 +4,7 @@ date: 2018-03-18 06:45:31 Z
 permalink: network-with-dns-server/
 categories:
 - cisco
-- network
+- networking
 layout: post
 meta_description: See how to design simple network with dns server at cisco packet tracer
 comments: true
