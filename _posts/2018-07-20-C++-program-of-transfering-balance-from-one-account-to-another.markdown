@@ -1,6 +1,6 @@
 ---
 title: C++ program of transfering balance from one account to another
-date: 2018-07-20 07:34:47 Z Z
+date: 2018-07-20 07:34:47 Z
 permalink: cplus-balance-transfer/
 layout: post
 category:
@@ -9,13 +9,6 @@ comments: true
 ---
 
 {% highlight ruby %}
-/******************************************************************************
-
-Author Madhav Paudel
-C++ program of transfering balance from one account to another. Account consists
-of name, accno and balance
-
-*******************************************************************************/
 
 #include <iostream>
 #include<iomanip>
