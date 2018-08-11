@@ -1,6 +1,6 @@
 ---
-title: C++ program of file handling to write a file in the disk and read from a file
-date: 2016-12-25 07:34:47 Z
+title: C++ program of transfering balance from one account to another
+date: 2018-07-20 07:34:47 Z
 layout: post
 permalink: cplus-file-handling-mp/
 category:
