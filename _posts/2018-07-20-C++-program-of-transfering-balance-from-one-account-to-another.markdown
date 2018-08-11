@@ -9,14 +9,7 @@ comments: true
 ---
 
 {% highlight ruby %}
-/******************************************************************************
-
-Balance Transfer
-//Author Madhav Paudel
-
-*******************************************************************************/
-
-#include <iostream>
+#include <iostream.h>
 #include<iomanip>
 using namespace std;
 class Account
