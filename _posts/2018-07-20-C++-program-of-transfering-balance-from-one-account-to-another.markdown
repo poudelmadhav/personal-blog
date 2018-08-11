@@ -9,7 +9,6 @@ comments: true
 ---
 
 {% highlight ruby %}
-
 #include <iostream>
 #include<iomanip>
 using namespace std;
