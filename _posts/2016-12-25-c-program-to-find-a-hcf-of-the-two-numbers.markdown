@@ -8,7 +8,7 @@ layout: post
 comments: true
 ---
 
-{% highlight c linenos %}
+{% highlight c %}
 #include<stdio.h>
 #include<conio.h>
 int hcfactor(int x,int y)
@@ -28,4 +28,3 @@ void main()
 	getch();
 }
 {% endhighlight %}
-
