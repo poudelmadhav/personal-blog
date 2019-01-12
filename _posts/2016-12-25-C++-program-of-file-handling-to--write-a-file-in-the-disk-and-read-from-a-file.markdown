@@ -8,7 +8,7 @@ category:
 comments: true
 ---
 
-```C++
+{% highlight c++ %}
 #include<iostream.h>
 #include<conio.h>
 #include<fstream.h>
@@ -41,5 +41,4 @@ int main()
 	getch();
 	return 0;
 }
-```
-
+{% endhighlight %}
