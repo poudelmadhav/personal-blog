@@ -8,7 +8,7 @@ category:
 comments: true
 ---
 
-{% highlight c++ %}
+{% highlight c++ linenos %}
 #include<iostream.h>
 #include<conio.h>
 #include<fstream.h>
