@@ -1,54 +1,135 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://blog.poudelmadhav.com.np/</loc>
-  <lastmod>2017-11-24T03:50:09+00:00</lastmod>
-  <priority>1.00</priority>
+<loc>https://blog.poudelmadhav.com.np/</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>1.00</priority>
 </url>
 <url>
-  <loc>https://blog.poudelmadhav.com.np/jekyll/update/2016/12/25/c-program-to-find-a-hcf-of-the-two-numbers/</loc>
-  <lastmod>2017-11-24T03:50:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://blog.poudelmadhav.com.np/csit-sixth-semester-all-questions-2075/
+</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.poudelmadhav.com.np/2016/12/25/C++-program-of-file-handling-to-write-a-file-in-the-disk-and-read-from-a-file/</loc>
-  <lastmod>2017-11-24T03:50:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://blog.poudelmadhav.com.np/assets/files/2075/CSc_351_SE_2075.pdf
+</loc>
+<lastmod>2019-01-20T17:19:34+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.poudelmadhav.com.np/jekyll/update/2016/12/22/stopping-by-woods-on-a-snowy-evening/</loc>
-  <lastmod>2017-11-24T03:50:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://blog.poudelmadhav.com.np/assets/files/2075/CSc_352_CDC_2075.pdf
+</loc>
+<lastmod>2019-01-20T17:19:34+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.poudelmadhav.com.np/jekyll/update/2016/12/21/welcome-to-jekyll/</loc>
-  <lastmod>2017-11-24T03:50:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://blog.poudelmadhav.com.np/assets/files/2075/CSc_353_WT_2075.pdf
+</loc>
+<lastmod>2019-01-20T17:19:34+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.poudelmadhav.com.np/jekyll/update/2015/01/01/welcome-to-jekyll/</loc>
-  <lastmod>2017-11-24T03:50:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://blog.poudelmadhav.com.np/assets/files/2075/CSc_354_RTS_2075.pdf
+</loc>
+<lastmod>2019-01-20T17:19:34+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.poudelmadhav.com.np/page2/</loc>
-  <lastmod>2017-11-24T03:50:09+00:00</lastmod>
-  <priority>0.80</priority>
+<loc>
+https://blog.poudelmadhav.com.np/assets/files/2075/CSc_356_EC_2075.pdf
+</loc>
+<lastmod>2019-01-20T17:19:34+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.poudelmadhav.com.np/2014/12/21/Band-aid-30/</loc>
-  <lastmod>2017-11-24T03:50:09+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>
+https://blog.poudelmadhav.com.np/cplus-program-to-transfer-balance/
+</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.80</priority>
 </url>
 <url>
-  <loc>https://blog.poudelmadhav.com.np/nodejs/guides/2014/12/14/what-is-nodejs/</loc>
-  <lastmod>2017-11-24T03:50:09+00:00</lastmod>
-  <priority>0.64</priority>
+<loc>
+https://blog.poudelmadhav.com.np/network-with-dns-server/
+</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://blog.poudelmadhav.com.np/c-program-hcf/</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>
+https://blog.poudelmadhav.com.np/cplus-file-handling/
+</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>https://blog.poudelmadhav.com.np/page2/</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.80</priority>
+</url>
+<url>
+<loc>
+https://blog.poudelmadhav.com.np/poem/2016/12/22/stopping-by-woods-on-a-snowy-evening/
+</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>
+https://blog.poudelmadhav.com.np/welcome/2016/12/21/welcome-to-jekyll/
+</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>
+https://blog.poudelmadhav.com.np/2014/12/20/Band-aid-30/
+</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>
+https://blog.poudelmadhav.com.np/nodejs/guides/2014/12/13/what-is-nodejs/
+</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>
+https://blog.poudelmadhav.com.np/enable-ssh-secure-shell-in-ubuntu/
+</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>https://blog.poudelmadhav.com.np/page3/</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.64</priority>
+</url>
+<url>
+<loc>
+https://blog.poudelmadhav.com.np/update-magento-url-after-migrate-site-from-one-environment-to-another/
+</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.51</priority>
+</url>
+<url>
+<loc>
+https://blog.poudelmadhav.com.np/installing-apache2-php5-and-mysql-support-on-ubuntu-12-04/
+</loc>
+<lastmod>2019-01-20T17:19:37+00:00</lastmod>
+<priority>0.51</priority>
 </url>
 </urlset>
