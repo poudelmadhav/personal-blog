@@ -9,8 +9,8 @@ meta_description: bsc csit sixth semester old questions 2075, sixth semester, si
 comments: true
 ---
 
-<a href="../assets/files/2075/CSc_351_SE_2075.pdf">Software Engineering (CSc.351)</a><br>
-<a href="../assets/files/2075/CSc_352_CDC_2075.pdf">Compiler Design and Construction (CSc.352)</a><br>
-<a href="../assets/files/2075/CSc_353_WT_2075.pdf">Web Technologies (CSc.353)</a><br>
-<a href="../assets/files/2075/CSc_354_RTS_2075.pdf">Real Time Systems (CSc.354)</a><br>
-<a href="../assets/files/2075/CSc_356_EC_2075.pdf">Fundamental of E-commerce (CSc.356)</a><br>
+<a href="../assets/files/2075/CSc_351_SE_2075.pdf" title="Software Engineering">Software Engineering (CSc.351)</a><br>
+<a href="../assets/files/2075/CSc_352_CDC_2075.pdf" title="Compiler Design and Construction">Compiler Design and Construction (CSc.352)</a><br>
+<a href="../assets/files/2075/CSc_353_WT_2075.pdf" title="Web Technologies">Web Technologies (CSc.353)</a><br>
+<a href="../assets/files/2075/CSc_354_RTS_2075.pdf" title="Real Time Systems">Real Time Systems (CSc.354)</a><br>
+<a href="../assets/files/2075/CSc_356_EC_2075.pdf" title="Fundamental of E-commerce">Fundamental of E-commerce (CSc.356)</a><br>

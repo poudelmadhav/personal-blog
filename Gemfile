@@ -9,4 +9,8 @@ gem 'rake'
 
 gem "rb-fsevent", "~> 0.9.0"
 
-gem "jekyll", "~> 3.5.2"
+gem "jekyll"
+
+group :jekyll_plugins do
+  gem 'jekyll-sitemap'
+end

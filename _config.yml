@@ -34,7 +34,7 @@ google_webmaster_key: ebDc8GIZqL1BamA5ZyDMaV9Fu10GTP_UBJQY0GO3CK0
 markdown: kramdown
 permalink: pretty
 gems:
-- jekyll-paginate
+  - jekyll-paginate
 paginate: 5
 paginate_path: page:num
 exclude:
@@ -48,3 +48,6 @@ exclude:
 sass:
   sass_dir: assets/css/_sass
   style: compressed
+plugins_dir:
+  - jekyll-sitemap
+  - jekyll-paginate
