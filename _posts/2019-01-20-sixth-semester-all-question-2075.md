@@ -1,6 +1,6 @@
 ---
 title: B.Sc. CSIT Sixth Semester All Questions 2075
-date: 2019-01-20 22:13:47 +0545
+date: 2019-01-24 20:08:47 +0545
 layout: post
 permalink: csit-sixth-semester-all-questions-2075/
 category:
