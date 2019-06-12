@@ -39,10 +39,10 @@ ssh -T git@gitlab.com
 You will get a message like this
 ```shell
 # For GitHub
-Hi poudelmadhav! You've successfully authenticated, but GitHub does not provide shell access.
+Hi <your_usename>! You've successfully authenticated, but GitHub does not provide shell access.
 
 # OR for GitLab
-ssh -T git@gitlab.com
+Welcome to GitLab, @<your_username>!
 ```
 
 
