@@ -37,14 +37,13 @@ ssh -T git@github.com
 ssh -T git@gitlab.com
 ```
 You will get a message like this
-```shell
+```
 # For GitHub
 Hi <your_usename>! You've successfully authenticated, but GitHub does not provide shell access.
 
 # OR for GitLab
 Welcome to GitLab, @<your_username>!
 ```
-
 
 # Signing commits with GPG
 GitHub or GitLab can show whether a commit is verified or not when signed with a GPG key. All you need to do is upload the public GPG key in your profile settings.
