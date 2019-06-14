@@ -6,7 +6,8 @@ permalink: how-to-add-ssh-and-gpg-kyes-in-github-or-gitlab/
 category:
 - ssh
 - gpg
-meta_description: Here you will know how to add ssh keys and gpg keys in gitlab or github, How to add ssh and gpg keys in GitHub or GitLab, ssh keys, gpg keys, ssh key in github, ssh key in gitlab, gpg key in gitlab, gpg key in github
+meta_description: Here you will know how to add ssh keys and gpg keys in gitlab or github.
+meta_keywords: Here you will know how to add ssh keys and gpg keys in gitlab or github, How to add ssh and gpg keys in GitHub or GitLab, ssh keys, gpg keys, ssh key in github, ssh key in gitlab, gpg key in gitlab, gpg key in github
 comments: true
 ---
 
