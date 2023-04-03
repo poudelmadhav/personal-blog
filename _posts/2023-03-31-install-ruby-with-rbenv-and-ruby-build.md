@@ -61,7 +61,7 @@ This should display the version of Ruby you just installed.
 If the version of Ruby you want to install is not available in `ruby-build` yet, but it is available in the official release, you can download the source code from the Ruby website and compile it manually. Once you have the source code, you can use `ruby-build` to compile and install it:
 
 ### Step 1
-Download the Ruby source code from the official Ruby website: https://www.ruby-lang.org/en/downloads/
+Download the Ruby source code from the official Ruby website: [https://www.ruby-lang.org/en/downloads](https://www.ruby-lang.org/en/downloads)
 
 ### Step 2
 Extract the source code to a directory of your choice.
