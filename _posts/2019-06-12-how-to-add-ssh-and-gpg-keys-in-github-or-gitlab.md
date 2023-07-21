@@ -156,6 +156,15 @@ git config --global commit.gpgsign true
 Within a project or merge request, navigate to the Commits tab. Signed commits will show a badge containing either “Verified” or “Unverified”, depending on the verification status of the GPG signature.
 ![Signed and unsigned commits](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/img/project_signed_and_unsigned_commits.png)
 
+# Troubleshooting
+* run `gpg --version`, and make sure you have GnuPG version 2+ (not version 1) installed
+* run `echo "test" | gpg --clearsign`, to make sure `gpg` itself is working
+
+If you get an error message saying *“Inappropriate ioctl for device”*, do this:
+
+* run `export GPG_TTY=$(tty)` and/or add that to your `~/.bashrc` or `˜/.bash_profile` 
+
 # Referece Links
-* [GitHub Docs](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/)
+* [GitLab Docs](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/)
 * [GoRails](https://gorails.com/setup/ubuntu/18.04#git)
+* [Stack Overflow](https://stackoverflow.com/a/41054093/7735007)
