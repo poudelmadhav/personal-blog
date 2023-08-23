@@ -4,6 +4,9 @@
 <!--[if IE 8]>    <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->  
   <head>
+    {% comment %} Google Analytics {% endcomment %}
+    {% include google-analytics.html %}
+
     <meta charset="utf-8">
     {% comment %}
     <!-- Enable responsiveness on mobile devices-->
@@ -108,8 +111,5 @@
     </script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script async type="text/javascript" src="{{ '/assets/js/gaya.min.js' | prepend: site.baseurl | prepend: site.url }}"></script>
-    
-    {% comment %} Google Analytics {% endcomment %}
-    {% include google-analytics.html %}   
   </body>
 </html>
