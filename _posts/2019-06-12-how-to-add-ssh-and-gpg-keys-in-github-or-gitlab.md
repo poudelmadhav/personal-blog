@@ -21,10 +21,9 @@ git config --global user.email "YOUR@EMAIL.com"
 # Adding SSH key
 Run this command in your terminal to generate new ssh key
 ```shell
-# Recommended
 ssh-keygen -t ed25519 -C "YOUR@EMAIL.com"
 
-# Use this if your system doesn't support the Ed25519 (not recommended)
+# Use this if your system doesn't support the Ed25519
 ssh-keygen -t rsa -b 4096 -C "YOUR@EMAIL.com"
 ```
 The next step is to take the newly generated SSH key and add it to your Github or GitLab account. You can add SSH key in your setting of GitLab or GitHub. You want to copy and paste the output of the following command and paste it in your ssh key setting.
