@@ -43,7 +43,7 @@ comments: true
 3. **Get the container's IP Address:** 
 
    ```shell
-   docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' mysql_container
+   docker inspect mysql_container | grep IPAddress
    ```
 
    This will display the container's IP address, which will be used later.
