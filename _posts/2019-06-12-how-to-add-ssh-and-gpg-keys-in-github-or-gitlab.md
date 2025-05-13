@@ -62,29 +62,35 @@ If you don’t already have a GPG key, the following steps will help you get sta
 ```shell
 gpg --full-gen-key
 ```
-3. The first question is which algorithm can be used. Select the kind you want or press `Enter` to choose the default (RSA and RSA):
+3. The first question is which algorithm can be used. Select the kind you want or press `Enter` to choose the default ECC (sign and encrypt):
 Please select what kind of key you want:
 ```shell
-(1) RSA and RSA (default)
-(2) DSA and Elgamal
-(3) DSA (sign only)
-(4) RSA (sign only)
-Your selection? 1
+Please select what kind of key you want:
+   (1) RSA and RSA
+   (2) DSA and Elgamal
+   (3) DSA (sign only)
+   (4) RSA (sign only)
+   (9) ECC (sign and encrypt) *default*
+  (10) ECC (sign only)
+  (14) Existing key from card
+Your selection? 9
 ```
-4. The next question is key length. We recommend to choose the highest value which is 4096:
+4. The next question is which elliptic curve you want. We recommend to go with the default one. Select the kind you want or press `Enter`
 ```shell
-RSA keys may be between 1024 and 4096 bits long.
-What keysize do you want? (2048) 4096
-Requested keysize is 4096 bits
+Please select which elliptic curve you want:
+   (1) Curve 25519 *default*
+   (4) NIST P-384
+   (6) Brainpool P-256
+Your selection? 1
 ```
 5. Next, you need to specify the validity period of your key. This is something subjective, and you can use the default value which is to never expire:
 ```shell
 Please specify how long the key should be valid.
-        0 = key does not expire
-     <n>  = key expires in n days
-     <n>w = key expires in n weeks
-     <n>m = key expires in n months
-     <n>y = key expires in n years
+         0 = key does not expire
+      <n>  = key expires in n days
+      <n>w = key expires in n weeks
+      <n>m = key expires in n months
+      <n>y = key expires in n years
 Key is valid for? (0) 0
 Key does not expire at all
 ```
@@ -108,16 +114,16 @@ Change (N)ame, (C)omment, (E)mail or (O)kay/(Q)uit? O
 gpg --list-secret-keys --keyid-format LONG <your_email>
 ```
 <i>Replace ```<your_email>``` with the email address you entered above.</i>
-10. Copy the GPG key ID that starts with sec. In the following example, that’s 30F2B65B9246B6CA:
+10. Copy the GPG key ID that starts with sec. In the following example, that’s 5C426E801C00183B:
 ```shell
-sec   rsa4096/30F2B65B9246B6CA 2017-08-18 [SC]
-     D5E4F29F3275DC0CDA8FFC8730F2B65B9246B6CA
-uid                   [ultimate] Mr. Robot <your_email>
-ssb   rsa4096/B7ABC0813E4028C0 2017-08-18 [E]
+sec   ed25519/5C426E801C00183B 2025-05-13 [SC]
+      1CFD5B42CF473B60466B69325C426E801C00183B
+uid                 [ultimate] Mr. Robot <your_email>
+ssb   cv25519/B3ED6E8715E10A6E 2025-05-13 [E]
 ```
 11. Export the public key of that ID (replace your key ID from the previous step):
 ```shell
-gpg --armor --export 30F2B65B9246B6CA
+gpg --armor --export 5C426E801C00183B
 ```
 12. Finally, copy the public key and add it in your profile settings
 
@@ -131,18 +137,18 @@ After you have created your GPG key and added it to your account, it’s time to
 gpg --list-secret-keys --keyid-format LONG <your_email>
 ```
 Replace ```<your_email>``` with the email address you entered above.
-2. Copy the GPG key ID that starts with sec. In the following example, that’s 30F2B65B9246B6CA:
+2. Copy the GPG key ID that starts with sec. In the following example, that’s 5C426E801C00183B:
 ```shell
-sec   rsa4096/30F2B65B9246B6CA 2017-08-18 [SC]
-     D5E4F29F3275DC0CDA8FFC8730F2B65B9246B6CA
-uid                   [ultimate] Mr. Robot <your_email>
-ssb   rsa4096/B7ABC0813E4028C0 2017-08-18 [E]
+sec   ed25519/5C426E801C00183B 2025-05-13 [SC]
+      1CFD5B42CF473B60466B69325C426E801C00183B
+uid                 [ultimate] Mr. Robot <your_email>
+ssb   cv25519/B3ED6E8715E10A6E 2025-05-13 [E]
 ```
 3. Tell Git to use that key to sign the commits:
 ```shell
-git config --global user.signingkey 30F2B65B9246B6CA
+git config --global user.signingkey 5C426E801C00183B
 ```
-Replace 30F2B65B9246B6CA with your GPG key ID.
+Replace 5C426E801C00183B with your GPG key ID.
 
 # Signing commits
 After you have created your GPG key and added it to your account, you can start signing your commits:
@@ -160,7 +166,7 @@ git config --global commit.gpgsign true
 
 # Verifying commits
 Within a project or merge request, navigate to the Commits tab. Signed commits will show a badge containing either “Verified” or “Unverified”, depending on the verification status of the GPG signature.
-![Signed and unsigned commits](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/img/project_signed_and_unsigned_commits.png)
+![Signed and unsigned commits](https://gitlab.com/gitlab-org/gitlab-foss/-/raw/13becf042617083d6d95507dd621934077370c5e/doc/user/project/repository/gpg_signed_commits/img/project_signed_and_unsigned_commits.png)
 
 # Troubleshooting
 * run `gpg --version`, and make sure you have GnuPG version 2+ (not version 1) installed
@@ -171,6 +177,6 @@ If you get an error message saying *“Inappropriate ioctl for device”*, do th
 * run `export GPG_TTY=$(tty)` and/or add that to your `~/.bashrc` or `˜/.bash_profile` 
 
 # Referece Links
-* [GitLab Docs](https://docs.gitlab.com/ee/user/project/repository/gpg_signed_commits/)
-* [GoRails](https://gorails.com/setup/ubuntu/18.04#git)
+* [GitLab Docs](https://docs.gitlab.com/user/project/repository/signed_commits/gpg/)
+* [GoRails](https://gorails.com/setup/ubuntu/24.04#git)
 * [Stack Overflow](https://stackoverflow.com/a/41054093/7735007)
